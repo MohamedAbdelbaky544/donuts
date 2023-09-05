@@ -21,7 +21,9 @@ class _SplachPageState extends State<SplachPage> {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(builder: (context) {
           return const OnboardingPage();
-        }),
+
+        },
+        ),
       );
     });
   }
