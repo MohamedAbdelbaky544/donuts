@@ -5,6 +5,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import '../basket/basket.dart';
 import '../home/home_screen.dart';
+import '../profile/profile.dart';
 
 class ButtomNavigationBar extends StatefulWidget {
   const ButtomNavigationBar({super.key});
@@ -19,7 +20,7 @@ class _ButtomNavigationBarState extends State<ButtomNavigationBar> {
     const HomeScreen(),
     const Scaffold(),
     const BasketPage(),
-    const Scaffold(),
+    const ProfilePage(),
   ];
   @override
   Widget build(BuildContext context) {
